@@ -1,0 +1,20 @@
+Introduction
+
+This project investigates the concept of home-field advantage in football matches by analyzing historical match data. Using statistical and machine learning techniques, the study explores how key factors such as goals scored, goals conceded, and recent team performance influence match outcomes (Win, Draw, Loss). The results are visualized using data-driven charts to highlight patterns and trends.
+
+Research Question:
+ "Can the Outcome of a Football Match Be Accurately Predicted Based on the Home Team’s Advantage?"
+
+Key Findings
+	1.	Home-Field Advantage:
+	•	Teams generally win more often at home, with a higher percentage of points earned in home matches compared to away games.
+	2.	Significant Predictors:
+	•	The most influential predictors of match outcomes were:
+	•	Average home goals scored (avg_home_goals).
+	•	Average away goals conceded (avg_away_goals_conceded).
+	•	Recent form of the away team (recent_form_away).
+	•	These predictors had stronger correlations with match outcomes compared to others.
+	3.	Model Performance:
+	•	The multinomial logistic regression model achieved a high degree of accuracy (67%) in predicting match outcomes, supported by a low log-loss score.
+	4.	Trends Over Time:
+	•	Visualizations revealed consistent patterns in home advantage, especially for top FIFA-ranked countries.
